@@ -1,12 +1,12 @@
-package br.edu.ifal.domain;
+package src.service.domain;
 
-public class Cliente {
+public class Funcionario {
     private String cpf;
     private String nome;
     private String endereco;
     private String telefone;
 
-    public Cliente(String cpf, String nome, String endereco, String telefone) {
+    public Funcionario(String cpf, String nome, String endereco, String telefone) {
         this.cpf = cpf;
         this.nome = nome;
         this.endereco = endereco;
@@ -44,14 +44,6 @@ public class Cliente {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
-
-    @Override
-    public String toString() {
-        return "Cliente{" +
-                "cpf='" + cpf + '\'' +
-                ", nome='" + nome + '\'' +
-                ", endereco='" + endereco + '\'' +
-                ", telefone='" + telefone + '\'' +
-                '}';
-    }
 }
+
+
